@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "BlinkerFluid",
+	"version": "0.0.1",
+	"description": "Add a download button to some Brightspace PDFs.",
+	"content_scripts": [
+		{
+			"matches": ["https://westernu.brightspace.com/d2l/le/content/*/fullscreen/*/View*"],
+			"css": ["injected.css"],
+			"js": ["content.js"],
+			"all_frames": true
+		}
+	]
+}

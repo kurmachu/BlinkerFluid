@@ -1,0 +1,5 @@
+.modernized-row {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 10px 0;
+}
